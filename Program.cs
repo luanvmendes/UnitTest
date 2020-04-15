@@ -4,14 +4,6 @@ namespace UnitTests
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            int yy = Add(4,5);
-            
-            Console.WriteLine(yy);
-            Console.WriteLine(IsOdd(5));
-        }
 
         public static int Add(int x, int y)
         {
